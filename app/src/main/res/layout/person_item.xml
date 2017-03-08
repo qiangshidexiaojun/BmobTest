@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+    >
+
+    <ImageView
+        android:id="@+id/head"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/txtname"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:hint="姓名"/>
+
+    <TextView
+        android:id="@+id/txtaddress"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:hint="地址"/>
+
+    <TextView
+        android:id="@+id/txtage"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:hint="年龄"/>
+
+    <ImageView
+        android:id="@+id/imgdel"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_menu_delete"/>
+
+
+</LinearLayout>
